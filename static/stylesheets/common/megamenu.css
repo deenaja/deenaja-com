@@ -1,0 +1,101 @@
+/*----------------------------------------------------------------------
+	LTR Menu Mega
+----------------------------------------------------------------------*/
+/*---- Show All Submenu---- */
+ul.navi div.mega-content {
+	position: absolute;left: -999em;z-index: 10;
+	background: #6f0a1c;
+}
+/*3E000B*/
+ul.navi div.level2.mega-content{
+	/*background: #3E000B;*/
+	
+	background: #600004; /* Old browsers */
+	background: -moz-linear-gradient(top,  #600004 0%, #3e000b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#600004), color-stop(100%,#3e000b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #600004 0%,#3e000b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #600004 0%,#3e000b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #600004 0%,#3e000b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #600004 0%,#3e000b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#600004', endColorstr='#3e000b',GradientType=0 ); /* IE6-9 */
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+ul.navi div.mega-content-inner {}
+
+/* For Mega colums */
+ul.navi div.mega-col {float: left;}
+ul.navi div.mega-col.first.more {padding-left: 0px;}
+/*ul.navi div.mega-col.last.more {padding-right: 10px;}*/
+ul.navi div.mega-col.last.more {padding-right: 0px;}
+ul.navi div.mega-col.more{
+	/*padding: 0 5px;*/
+	padding: 0;
+	box-sizing: border-box; -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.navi div.mega-col.more > ul.subnavi {box-shadow: none;width:auto;}
+
+/* For Mega Item*/
+ul.navi div.mega-group {display: block;}
+ul.navi div.mega-col.first div.mega-group div.mega-group-title{margin-left: 0px;}
+/*ul.navi div.mega-col.last div.mega-group div.mega-group-title{margin-right: -10px;}*/
+ul.navi div.mega-group div.mega-group-title{
+	border: 0px ;
+	border-bottom: 1px dashed #956c74;
+	/*margin: 0 -5px;*/
+	margin: 0;
+	background: #780f22; /* Old browsers */
+	background: -moz-linear-gradient(top,  #780f22 0%, #3f000b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#780f22), color-stop(100%,#3f000b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #780f22 0%,#3f000b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #780f22 0%,#3f000b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #780f22 0%,#3f000b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #780f22 0%,#3f000b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#780f22', endColorstr='#3f000b',GradientType=0 ); /* IE6-9 */
+}
+ul.navi div.mega-group div.mega-group-title .item-link{
+	color: #ff7b30;
+	padding: 0 0 0 35px;
+	min-height: 36px;
+	margin: 0;
+	background:url("../../../../images/menu_star.png") no-repeat 10px -50px;
+}
+
+ul.navi div.mega-group div.mega-group-title .menu-icon{}
+ul.navi div.mega-group div.mega-group-title span.menu-title{padding:10px  0;line-height: 100%;font-size: 20px;font-weight: normal;}
+ul.navi div.mega-group div.mega-group-title .showdesc{text-align: left;}
+ul.navi div.mega-group div.mega-group-title .showdesc .menu-title{padding: 0 0 5px;}
+ul.navi div.mega-group div.mega-group-title .showdesc .menu-desc{font-family: "arial";}
+ul.navi div.mega-group div.mega-group-content{position: relative;}
+
+/*For Mega module*/
+ul.navi div.mega-module {padding: 10px 5px;color: #fff;}
+ul.navi div.mega-col.one div.mega-module{padding: 10px 15px;overflow: hidden;}
+ul.navi div.mega-module h3 {}
+ul.navi div.mega-module p{margin: 0;}
+ul.navi div.mega-module .bsn-wrap .post{
+	padding: 6px 0;
+	margin: 0;
+	border-bottom: 1px solid #001F49;
+	border-top: 1px solid #003680;
+}
+ul.navi div.mega-module .bsn-wrap .post:first-child{border-top: none;padding-top:0;}
+ul.navi div.mega-module .bsn-wrap .post:last-child{border-bottom: none;}
+ul.navi div.mega-module .bsn-wrap .bsn-image{background: #002454;}
+ul.navi div.mega-module.mega2 .bsn-wrap h2{float: left;width:100%;clear: both;margin: 5px 0 0;}
+ul.navi div.mega-module.mega2 .bsn-wrap .bsn-image{float: none;margin: 0;padding: 5px;}
+
+/*----------------------------------------------------------------------
+	RTL Menu Mega
+----------------------------------------------------------------------*/
+/* Mega colums */
+ul.navirtl div.mega-col {float: right;}
+ul.navirtl div.mega-col.first.more {padding: 0 10px 0 0;}
+ul.navirtl div.mega-col.last.more {padding: 0 0 0 10px;}
+
+ul.navirtl div.mega-col.first div.mega-group div.mega-group-title{margin-right: -10px;}
+ul.navirtl div.mega-col.last div.mega-group div.mega-group-title{margin-left: -10px;}
+ul.navirtl div.mega-group div.mega-group-title .item-link{padding: 0 35px 0 0;background-position: 97% -52px;}
+
+

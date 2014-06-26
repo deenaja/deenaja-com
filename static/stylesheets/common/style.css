@@ -1,0 +1,190 @@
+
+.image-content.leading img{
+	width:230px; 
+	height:150px;
+}
+.image-content.intro img{
+	width:230px; 
+	height:150px;
+}
+
+body.sj_bakery{font-size:12px}
+body.sj_bakery{font-family:arial,sans-serif;}
+  ul.navi li.level1 > .level1 .menu-title{font-family:Kameron, serif !important}
+	#yt-virtue-mod-228,
+	#yt-virtue-mod-228 .yt-virtuemart {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#yt-virtue-mod-228 .yt-vm-content .vm-content-inner .vm-item{
+		width: 33.333333333333% ;
+		height: 160px;
+	}
+
+		#meganavigator ul.subnavi {
+			position: static;
+			left: auto;
+			right: auto;
+		}
+		
+		#meganavigator ul.subnavi>li {
+			margin-left: 0;
+		}
+		
+		#meganavigator ul.subnavi>li.first {
+			margin-top: 0;
+		}
+	
+body.sj_bakery{
+	background-color:#ffffff ;
+	color:#919191 ;
+}
+
+body a{
+	color:#ff7b30 ;
+}
+#yt_slideshow,
+#yt_header{background-color:#ffffff ;}
+
+#yt_footer{background-color:#3e000b ;}
+#yt_spotlight5{background-color:#6f0a1c ;}
+
+
+	#yt-virtue-mod-211,
+	#yt-virtue-mod-211 .yt-virtuemart {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#yt-virtue-mod-211 .yt-vm-content .vm-content-inner .vm-item{
+		width: 100% ;
+		height: auto;
+	}
+/*------------------------------------------------------------------------
+ * @package Sj Virtue Mart
+ * @version 2.0
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @copyright (c) 2012 YouTech Company. All Rights Reserved.
+ * @author YouTech Company http://www.smartaddons.com
+ *
+ *-------------------------------------------------------------------------*/
+ .clear{
+ 	margin:0;
+ 	height:0;
+ 	padding:0;
+ 	clear:both;
+ }
+.yt_vm_introtext p, .yt_vm_footertext p  {
+	margin: 0px!important
+}
+.yt-virtuemart {
+	overflow: hidden
+
+}
+
+.yt-virtuemart a:hover{
+	text-decoration: none;
+}
+.yt-item-title a{
+	color: #981e33;
+    font-size: 133%;
+    font-weight: bold;
+}
+.yt-item-readmore a{
+    margin: 0 15px 0 12px;
+    float: left;
+}
+.yt-virtuemart .yt-item-image a{
+	text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+.yt-virtuemart .yt-item-image a:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.3);
+}
+.yt-virtuemart .yt-item-image a:hover:before{
+    -webkit-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.6);
+	box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.6);
+}
+
+.yt-virtuemart a:hover{
+	text-decoration: none;	
+}
+
+.yt-virtuemart .yt-vm-content .vm-content-inner {
+	margin: 0px;
+	padding: 0px
+}
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item {
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+	background: none;
+	overflow: hidden
+}
+
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content {
+    padding: 0;
+}
+
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-title{ 
+	font-weight: bold;
+	font-size: 12px;
+	margin:0;
+	padding:0 0 8px;
+}
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-desc{ 
+	font-size: 12px;
+    border-bottom: 1px dashed #c5c5c5;
+    overflow: hidden;
+    padding: 0 5px 10px 0;
+    margin: 0 0 15px;
+    line-height: 150%;
+}
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-desc p{ 
+	margin: 0px;
+}
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-readmore{ 
+	display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-image{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 15px 20px 0;
+    float: left;
+}
+
+.yt-virtuemart .yt-vm-content .vm-content-inner .vm-item .yt-main-content .yt-item-title a, .yt-virtuemart .yt-vm-content ul li .yt-main-content .yt-item-readmore a, .yt-virtuemart .yt-vm-content ul li .yt-main-content .yt-item-image a{ 
+	background: none!important;
+/* 	text-decoration: none */
+}
+
+.price-rating{
+    display: inline-block;
+}
+.price-rating .vote{
+    margin: 4px 0 0 50px;
+}
+.price-rating .vote-number{
+    color: #686868;
+}
+
+.yt-virtuemart .yt-vm-content .sj_item_prices{
+	color:#ff0000;
+	font-size:15px;
+	margin:0;
+	/*padding:0 0 10px 0;*/
+    float: left;
+}
