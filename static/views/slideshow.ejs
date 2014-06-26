@@ -1,0 +1,87 @@
+<section id="yt_slideshow" class="block pattern_1">						<div class="yt-main">
+							<div class="yt-main-in1 container">
+								<div class="yt-main-in2 row-fluid">
+										<div id="slide_show" class="span12">
+			<!--<div class="yt-position-inner">-->
+				    	<div class="module">
+	    	    <div class="modcontent clearfix">
+<div id="sj-content-slickslider-res213" class="sj-content-slickslider-res " data-pause="hover" data-start-jcarousel="1" data-interval="4000">
+	<!-- Carousel items -->
+	<div class="btn-pre" href="#sj-content-slickslider-res213" data-jslide="prev"></div>
+	<div class="btn-next" href="#sj-content-slickslider-res213" data-jslide="next"></div>
+    <div class="sj-slickslider-res-inner bg-style2">
+     <% 
+     var i =0;
+     for (i=0; i<=3; i++) {  
+         var active_item_clearfix = "";
+         if(i==0){
+         	active_item_clearfix = "active";
+         }
+     %>
+    	    	<div class="item clearfix <%=active_item_clearfix%> ">
+			<div class="sj-slickslider-res-caption ">
+				<div class="sj-slickslider-res-caption-inner">
+										<div class="item-title">
+						<a href="/paris-gateaux/nase-ritas-dace-detail.html">
+							Nase ritas dace						</a>
+					</div>
+											<div class="item-price">
+							<div class="sale-price">
+							<span class="saleprice"><%=i %> 77,44 B</span>							</div>
+						</div>
+										<div class="item-description">
+						Netim vace ante gravida eros quis justo sed nonummy et Donec et. Hendrerit velit orci sagittis eu Aenean pharetra faucibus eu laoreet nunc. Tincidunt nulla a Nulla eu convallis scelerisque sociis ...					</div>
+
+					<div class="addtocart-area">
+						<form method="post" class="product js-recalculate" action="/">				
+							<div class="addtocart-bar">
+														<span class="addtocart-button">
+										<input type="submit" name="addtocart" class="addtocart-button" rel="nofollow" value="Add to Cart" title="Add to Cart">									</span>
+	
+								<div class="clear"></div>
+							</div>						 
+							<input type="hidden" name="quantity[]" value="1">
+							<input type="hidden" class="pname" value="Nase ritas dace">
+							<input type="hidden" name="option" value="com_virtuemart">
+							<input type="hidden" name="view" value="cart">
+							<noscript>&lt;input type="hidden" name="task" value="add"/&gt;</noscript>
+							<input type="hidden" name="virtuemart_product_id[]" value="82">
+						</form>
+						<div class="clear"></div>
+					</div><!--end add to card-->
+				</div>
+			</div>
+    		    		<div class="item-image">
+				<img class="bg_slideshow" src="http://deenaja.com/templates/sj_bakery/images/bg_slideshow.png" alt="">
+    			<div class="item-image-inner">
+					<a href="/paris-gateaux/nase-ritas-dace-detail.html">
+    					<img src="/images/product/28e82558034e16b730ca1e12a4efff47.jpeg" alt="Nase ritas dace" title="Nase ritas dace">	    				
+					</a>
+				</div>
+			</div>
+    	</div>
+    	    	<% } %>	
+    	    </div>
+    <!-- Carousel nav -->
+	<div class="nav conner-bl">
+		<ul class="type-dot">
+		   <% for (var i=0; i<=3; i++) { 
+		    var sel_pag_item  = "";
+         if(i==0){
+         	sel_pag_item = "sel";
+         }
+		    %>
+						<li class="pag-item <%=sel_pag_item%> " href="#sj-content-slickslider-res213" data-jslide="<%=i %>"><%=i %></li>
+			<% } %>			
+
+					</ul>
+	</div>
+</div>
+	    </div>
+	</div>
+			<!--</div>-->
+		</div>
+										</div>
+							</div>
+						</div>
+                    </section>
